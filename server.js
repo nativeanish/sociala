@@ -20,7 +20,7 @@ app.use(routes);
 
 //firing up the server
 mongoose.connect("mongodb+srv://anish:anish@macona.0mm8x.mongodb.net/macona?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true} , () => {
-    app.listen(process.env.port, () => {
-        console.log(`DataBase connected and server is on at ${process.env.port}`);
+    app.listen(5000, () => {
+        console.log(`DataBase connected and server is on at 5000`);
     });
 });
